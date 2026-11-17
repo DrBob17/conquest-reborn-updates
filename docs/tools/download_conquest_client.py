@@ -59,6 +59,11 @@ def download(opener, url, out):
     status = resp.status
     if status not in (200, 206):
         raise SystemExit(f"Download failed: HTTP {status}")
+    ctype = resp.headers.get("Content-Type", "")
+    if "text/html" in ctype:
+        html = resp.read(8192).decode("utf-8", "replace")
+        title = re.search(r"<title>(.*?)</title>", html, re.I | re.S)
+        raise SystemExit("Drive returned an HTML error page instead of the file: " + (title.group(1).strip() if title else html[:300]))
     length = int(resp.headers.get("Content-Length", "0") or 0)
     total = have + length
     mode = "ab" if have and status == 206 else "wb"
