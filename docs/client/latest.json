@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "version": "2026.11.17-1",
+  "publishedAt": "2026-11-17T00:00:00.000Z",
+  "files": [
+    {
+      "path": "Data/patch-ZZZZZZZZZZ.MPQ",
+      "size": 49479453,
+      "sha256": "1658c8a3e101ce4b7da24b398e4516e346224f7c55377d19ccc3b17649f66455"
+    }
+  ]
+}
