@@ -1,18 +1,14 @@
-Lumenveil + Chronicles overlay (Conquest Reborn)
-================================================
+Conquest Reborn client overlay
+==============================
 
-This channel installs the visual layer and the Chronicles art overlay.
+You start the game with CoACustomRace.exe (the 64-bit client). It already contains
+the Lumenveil visual layer: fog, sun/moon shafts, lamps at night, water and per-zone
+looks. There is no proxy DLL and nothing to install for the visuals themselves.
 
-LUMENVEIL IS 32-BIT ONLY.
-  Start the game with Ascension.exe (the 32-bit client).
-  Do NOT start CoACustomRace.exe with this installed: a 32-bit version.dll next to
-  a 64-bit executable breaks that executable.
-
-ONE-TIME SETUP (required, ~1-5 minutes)
-  1. Keep the game closed.
-  2. Run Lumenveil-Setup.cmd in this folder once. It reads your own game files and
-     writes lampdata.bin and liquiddata.bin. Nothing is uploaded anywhere.
-  3. Start Ascension.exe.
+ONE-TIME SETUP (optional but recommended, ~1-5 minutes)
+  Close the game, then run Lumenveil-Setup.cmd once. It reads your own game files and
+  writes lampdata.bin and liquiddata.bin (lamp lights and water), nothing is uploaded.
+  Run it again only after installing a patch that changes the world.
 
 IN GAME
   Ctrl+F12  switch Lumenveil off/on (compare)
@@ -20,11 +16,9 @@ IN GAME
   Ctrl+F3   per-zone looks
   Ctrl+F6   belt lantern
 
-ANTIVIRUS
-  version.dll is a proxy DLL. Some antivirus products quarantine it. If the visual
-  layer does not appear, check your antivirus quarantine and allow these files.
-
-UNINSTALL
-  Run Lumenveil-Uninstall.cmd, or delete the files this channel installed
-  (version.dll, CoAVolFog.dll, CoAVolFog*.ini, Lumenveil\, Lumenveil-*.cmd,
-  lampdata.bin, liquiddata.bin) plus Data\patch-ZZZZZZ0.MPQ.
+NOTES
+  * Do not put a 32-bit version.dll next to the 64-bit CoACustomRace.exe: it breaks the
+    client. This overlay intentionally ships none.
+  * Data\patch-ZZZZZZ0.MPQ is the art overlay; the client loads it (7-character slot,
+    above patch-ZZZZZZ).
+  * The launcher keeps WTF, Interface, Cache, Logs and realmlist.wtf untouched.
