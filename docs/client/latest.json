@@ -1,13 +1,8 @@
 ﻿{
     "schema":  1,
-    "version":  "2026.11.18-1",
-    "publishedAt":  "2026-11-18T03:09:23.594Z",
+    "version":  "2026.11.18-2",
+    "publishedAt":  "2026-11-18T03:45:57.730Z",
     "files":  [
-                  {
-                      "path":  "CoAVolFog.dll",
-                      "size":  1777664,
-                      "sha256":  "6867b65690a71084fab4f5dfff5d36f830b779c57b3c79bd21f684ba84a939e7"
-                  },
                   {
                       "path":  "CoAVolFog.ini",
                       "size":  26041,
@@ -75,8 +70,8 @@
                   },
                   {
                       "path":  "LUMENVEIL-README.txt",
-                      "size":  1167,
-                      "sha256":  "ece87b3edb479d53b8d8b46434f372c39ced6e821daed17b674734843c47570c"
+                      "size":  1083,
+                      "sha256":  "63b2da0df0cd6ef4dc7a5a222ec7cb8ee0e74e018d3e02f677be3fd0ad6cafd1"
                   },
                   {
                       "path":  "Lumenveil-Setup.cmd",
@@ -87,11 +82,6 @@
                       "path":  "Lumenveil-Uninstall.cmd",
                       "size":  1068,
                       "sha256":  "7d09a1cc933f2b3fab75d6225450dfe29c2a91ad513ea1f466c8c4cf6055dea2"
-                  },
-                  {
-                      "path":  "version.dll",
-                      "size":  89088,
-                      "sha256":  "f1e098bd81e5a46150e852dd5d115830d30537350a2acf4911a2ab57eeb265fc"
                   }
               ]
 }
