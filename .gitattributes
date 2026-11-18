@@ -1,0 +1,3 @@
+# Content-addressed objects must be byte-identical to their file names.
+docs/client/objects/** binary
+docs/client/objects/** -text -diff
