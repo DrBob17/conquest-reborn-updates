@@ -1,12 +1,97 @@
-{
-  "schema": 1,
-  "version": "2026.11.17-1",
-  "publishedAt": "2026-11-17T00:00:00.000Z",
-  "files": [
-    {
-      "path": "Data/patch-ZZZZZZZZX.MPQ",
-      "size": 65210773,
-      "sha256": "b8658f252e7a2458be5186d9c2ec47752a26077c48fbe783eba16b1dd8df7ff3"
-    }
-  ]
+﻿{
+    "schema":  1,
+    "version":  "2026.11.18-1",
+    "publishedAt":  "2026-11-18T03:09:23.594Z",
+    "files":  [
+                  {
+                      "path":  "CoAVolFog.dll",
+                      "size":  1777664,
+                      "sha256":  "6867b65690a71084fab4f5dfff5d36f830b779c57b3c79bd21f684ba84a939e7"
+                  },
+                  {
+                      "path":  "CoAVolFog.ini",
+                      "size":  26041,
+                      "sha256":  "aabdbe4ba9e6d4c3f265ef610c95a36ea522cdfbf89f80d2b2d9b215654c39e1"
+                  },
+                  {
+                      "path":  "CoAVolFog-regions.ini",
+                      "size":  97028,
+                      "sha256":  "a21c2616c866ea29bdf2c75af2607e8cb982fdaaef1167375b23f1490325a0a5"
+                  },
+                  {
+                      "path":  "Data/patch-ZZZZZZ0.MPQ",
+                      "size":  65210773,
+                      "sha256":  "b8658f252e7a2458be5186d9c2ec47752a26077c48fbe783eba16b1dd8df7ff3"
+                  },
+                  {
+                      "path":  "Lumenveil/lamp_extract.exe",
+                      "size":  569856,
+                      "sha256":  "5a6c9d6b0f3851b2dc021645b65406d24fa38058c11994e9fd1448f405aa1b91"
+                  },
+                  {
+                      "path":  "Lumenveil/LEGAL.txt",
+                      "size":  6143,
+                      "sha256":  "18fc74e5ac1df1aef31152f2019cee4e4dbe8a78bf7f685f233eddd9f05ea9af"
+                  },
+                  {
+                      "path":  "Lumenveil/LICENSE.txt",
+                      "size":  18093,
+                      "sha256":  "640d90f6ee401241ff62834d0d1b33f83049e99b8bfdfa04ed1b0a1635dde3e7"
+                  },
+                  {
+                      "path":  "Lumenveil/licenses/bzip2.txt",
+                      "size":  1901,
+                      "sha256":  "4919cfb14a73cd64fcef67b107613970cf1659a09aa675dba31314f373bc7204"
+                  },
+                  {
+                      "path":  "Lumenveil/licenses/DearImGui-MIT.txt",
+                      "size":  1083,
+                      "sha256":  "173506a2d6f7fb67990d257fb2507f188690eca39060c39469ae7bef43aae2a3"
+                  },
+                  {
+                      "path":  "Lumenveil/licenses/Everwood-MIT.txt",
+                      "size":  1060,
+                      "sha256":  "bb5e0128050c349695ead59646679a093f77e540b17791958a629c2477aed97f"
+                  },
+                  {
+                      "path":  "Lumenveil/licenses/GPL-2.0.txt",
+                      "size":  18093,
+                      "sha256":  "640d90f6ee401241ff62834d0d1b33f83049e99b8bfdfa04ed1b0a1635dde3e7"
+                  },
+                  {
+                      "path":  "Lumenveil/licenses/zlib.txt",
+                      "size":  1177,
+                      "sha256":  "c8b8912bff8c7a074f511f75678471a465d7706b7ab51a19a6ddb9eec5365aee"
+                  },
+                  {
+                      "path":  "Lumenveil/README.txt",
+                      "size":  1990,
+                      "sha256":  "16b09dca131904c2d36ccccd125a5ac7f56bdaec61e5a69f1f5abf51e9bf139b"
+                  },
+                  {
+                      "path":  "Lumenveil/THIRD-PARTY-NOTICES.txt",
+                      "size":  2714,
+                      "sha256":  "be75d97e93be19667b26cd61721c35d985a01e82d8b0c79289e58ff93afb540e"
+                  },
+                  {
+                      "path":  "LUMENVEIL-README.txt",
+                      "size":  1167,
+                      "sha256":  "ece87b3edb479d53b8d8b46434f372c39ced6e821daed17b674734843c47570c"
+                  },
+                  {
+                      "path":  "Lumenveil-Setup.cmd",
+                      "size":  1857,
+                      "sha256":  "15e9c638f0a6c94a5f736c5e5f5e81d7dad59f3db640ca1f51f931e10810585e"
+                  },
+                  {
+                      "path":  "Lumenveil-Uninstall.cmd",
+                      "size":  1068,
+                      "sha256":  "7d09a1cc933f2b3fab75d6225450dfe29c2a91ad513ea1f466c8c4cf6055dea2"
+                  },
+                  {
+                      "path":  "version.dll",
+                      "size":  89088,
+                      "sha256":  "f1e098bd81e5a46150e852dd5d115830d30537350a2acf4911a2ab57eeb265fc"
+                  }
+              ]
 }
